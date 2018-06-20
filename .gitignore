@@ -1,0 +1,16 @@
+*.tar.gz
+bin/
+lib/
+include/
+share/
+official/
+samples/
+tutorials/
+models/research/*
+!models/research/object_detection/
+models/research/object_detection/training/*
+models/research/object_detection/ssd_mobilenet_v1_coco_11_06_2017/*
+models/research/object_detection/ssd_mobilenet_v1_coco_2017_11_17/*
+models/research/object_detection/test_ckpt/*
+
+#end of git ignore
